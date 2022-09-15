@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header, footer{
+	background-color: #333;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	clear: both;
+}
+.floater{
+	float: left;
+	padding-left: 10px;
+}
+.left{
+	width: 25%;
+	max-height: 250px;
+	background-color: #ddd;
+	overflow-y: scroll;
+}
+.right{
+	width: 75%;
+}
+.container{
+	margin-bottom: 400px;
+	margin-top: 30px;
+}
+ul{
+padding: 10px;
+list-style-type: none;
+}
+
+li{
+	background-color: #33b5e5;
+	margin-bottom: 10px;
+	padding: 10px;
+	color: white;
+}
+li:hover{
+	background-color: blue;
+}
